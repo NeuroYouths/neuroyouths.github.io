@@ -6,16 +6,18 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+#theme                    : minimal-mistakes-jekyll
 locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "NeuroYouths"
+title_separator          : "|"
+name                     : "NeuroYouths"
+description              : "Mapping young brains to reveal the biology of playing, learning and growing in the city."
+url                      : "https://neuroyouths.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+repository               : "neuroyouths/neuroyouths.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+header                   : /assets/images/header.jpg
+teaser                   : /assets/images/header.jpg
+breadcrumbs              : true #false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -77,11 +79,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "The NeuroYouths Study Team"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Mapping young brains to reveal the biology of playing, learning and growing in the city."
+  location         : "Georgetown University"
+  email            : "neuroyouths@georgetown.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,7 +91,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/neuroyouths"
   gitlab           :
   google_plus      :
   keybase          :
