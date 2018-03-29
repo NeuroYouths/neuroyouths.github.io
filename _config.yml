@@ -16,7 +16,7 @@ url                      : "https://neuroyouths.github.io" # the base hostname &
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "neuroyouths/neuroyouths.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 header                   : 
-teaser                   : 
+teaser                   : /assets/images/neuroyouths-banner.png
 breadcrumbs              : true #false # true, false (default)
 words_per_minute         : 200
 comments:
