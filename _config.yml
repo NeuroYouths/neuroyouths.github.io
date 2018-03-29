@@ -8,28 +8,27 @@
 # Site Settings
 #theme                    : minimal-mistakes-jekyll
 locale                   : "en"
-title                    : "NeuroYouths"
+title                    : "The NeuroYouth Study"
 title_separator          : "|"
-name                     : "NeuroYouths"
-description              : "Mapping young brains to reveal the biology of playing, learning and growing in the city."
+name                     : "Shady El Damaty"
+description              : " "
 url                      : "https://neuroyouths.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "neuroyouths/neuroyouths.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-header                   : /assets/images/header.jpg
-teaser                   : /assets/images/header.jpg
+header                   : 
+teaser                   : 
 breadcrumbs              : true #false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : facebook # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
+  facebook:                # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            : 5
+    colorscheme          : light # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
@@ -57,7 +56,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "neuroyouths"
 facebook:
   username               :
   app_id                 :
@@ -76,6 +75,10 @@ analytics:
   google:
     tracking_id          :
 
+# Google API
+maps:
+  google:
+    api_key: AIzaSyCtiSPIseVfA0qGuvqZrt1pbhTLAurGJ98
 
 # Site Author
 author:
@@ -91,7 +94,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/neuroyouths"
+  github           : "neuroyouths/NeuroYouths"
   gitlab           :
   google_plus      :
   keybase          :
@@ -103,7 +106,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "neuroyouths"
   vine             :
   weibo            :
   xing             :
@@ -114,6 +117,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -177,16 +181,17 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-maps
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -233,8 +238,9 @@ compress_html:
   ignore:
     envs: development
 
+#include : ["_pages"]
+#include : ["_posts"]
 
-# Defaults
 defaults:
   # _posts
   - scope:
@@ -244,6 +250,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true

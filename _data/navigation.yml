@@ -1,11 +1,17 @@
 # main links
 main:
+  - title: "Information"
+    url: /study_information/  
   - title: "Sign Up"
     url: https://georgetown.az1.qualtrics.com/jfe/form/SV_bI5IEZvdEQouj2Z
+  - title: "About Us"
+    url: /about/
+  - title: "Posts"
+    url: /year-archive/
+  # - title: "Resources"
+  #   url: /_pages/resources.md
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
