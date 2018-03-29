@@ -2,7 +2,6 @@
 layout: splash
 permalink: /
 header:
-  overlay_filter: "rgba(252,255,175, 0.1)"
   overlay_image: "/assets/images/banner-2.png"
   permalink: /home-page/
   cta_label: "<i class='fa fa-group'></i>Sign Up Now to Participate (Ages 12-18) "
