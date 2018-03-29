@@ -4,7 +4,7 @@ comments: true
 toc: true
 header:
   overlay_color: "#4286f4"
-  overlay_image: /assets/images/neuroyouths-banner.png
+  overlay_image: /assets/images/banner-youth-flux-2.png
 permalink: /teenflux/
 trs:
   - url: /assets/images/dopamine_in_the_brain.png
